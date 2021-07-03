@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0406956F268F5499005AC527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406956E268F5499005AC527 /* AppDelegate.swift */; };
 		04069571268F5499005AC527 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04069570268F5499005AC527 /* SceneDelegate.swift */; };
-		04069573268F5499005AC527 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04069572268F5499005AC527 /* ViewController.swift */; };
 		04069576268F5499005AC527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04069574268F5499005AC527 /* Main.storyboard */; };
 		04069578268F549B005AC527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04069577268F549B005AC527 /* Assets.xcassets */; };
 		0406957B268F549B005AC527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04069579268F549B005AC527 /* LaunchScreen.storyboard */; };
+		04069583268F5F8E005AC527 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04069582268F5F8E005AC527 /* AuthViewController.swift */; };
+		04069586268F6077005AC527 /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04069585268F6077005AC527 /* PaymentsViewController.swift */; };
+		0406958B268F724A005AC527 /* PaymentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04069589268F724A005AC527 /* PaymentsTableViewCell.swift */; };
+		0406958C268F724A005AC527 /* PaymentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0406958A268F724A005AC527 /* PaymentsTableViewCell.xib */; };
+		0406958E268F765A005AC527 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0406958D268F765A005AC527 /* AuthModel.swift */; };
+		04069592268F9139005AC527 /* PaymentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04069591268F9139005AC527 /* PaymentsModel.swift */; };
+		04069594268FA1D8005AC527 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04069593268FA1D8005AC527 /* Persistance.swift */; };
+		22809B004AEBB70DC4D3F035 /* Pods_AEONTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D102CF7DA357A06EAE1F06A0 /* Pods_AEONTestApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0406956B268F5499005AC527 /* AEONTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AEONTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0406956E268F5499005AC527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04069570268F5499005AC527 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04069572268F5499005AC527 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04069575268F5499005AC527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04069577268F549B005AC527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0406957A268F549B005AC527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0406957C268F549B005AC527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04069582268F5F8E005AC527 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		04069585268F6077005AC527 /* PaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
+		04069589268F724A005AC527 /* PaymentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsTableViewCell.swift; sourceTree = "<group>"; };
+		0406958A268F724A005AC527 /* PaymentsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentsTableViewCell.xib; sourceTree = "<group>"; };
+		0406958D268F765A005AC527 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		04069591268F9139005AC527 /* PaymentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsModel.swift; sourceTree = "<group>"; };
+		04069593268FA1D8005AC527 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		1480FDCE3D5FA37B3FDF0DAF /* Pods-AEONTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AEONTestApp.release.xcconfig"; path = "Target Support Files/Pods-AEONTestApp/Pods-AEONTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		9A3FD83E78FB76EB34DA80AF /* Pods-AEONTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AEONTestApp.debug.xcconfig"; path = "Target Support Files/Pods-AEONTestApp/Pods-AEONTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D102CF7DA357A06EAE1F06A0 /* Pods_AEONTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AEONTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22809B004AEBB70DC4D3F035 /* Pods_AEONTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				0406956D268F5499005AC527 /* AEONTestApp */,
 				0406956C268F5499005AC527 /* Products */,
+				24E76D3E64F06E94BB21B388 /* Pods */,
+				5F2D22FC8181447ABF35F439 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,52 @@
 			children = (
 				0406956E268F5499005AC527 /* AppDelegate.swift */,
 				04069570268F5499005AC527 /* SceneDelegate.swift */,
-				04069572268F5499005AC527 /* ViewController.swift */,
+				04069588268F608D005AC527 /* Payments */,
+				04069587268F6080005AC527 /* Auth */,
 				04069574268F5499005AC527 /* Main.storyboard */,
 				04069577268F549B005AC527 /* Assets.xcassets */,
 				04069579268F549B005AC527 /* LaunchScreen.storyboard */,
 				0406957C268F549B005AC527 /* Info.plist */,
 			);
 			path = AEONTestApp;
+			sourceTree = "<group>";
+		};
+		04069587268F6080005AC527 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				04069582268F5F8E005AC527 /* AuthViewController.swift */,
+				04069593268FA1D8005AC527 /* Persistance.swift */,
+				0406958D268F765A005AC527 /* AuthModel.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		04069588268F608D005AC527 /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				04069585268F6077005AC527 /* PaymentsViewController.swift */,
+				04069591268F9139005AC527 /* PaymentsModel.swift */,
+				04069589268F724A005AC527 /* PaymentsTableViewCell.swift */,
+				0406958A268F724A005AC527 /* PaymentsTableViewCell.xib */,
+			);
+			path = Payments;
+			sourceTree = "<group>";
+		};
+		24E76D3E64F06E94BB21B388 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A3FD83E78FB76EB34DA80AF /* Pods-AEONTestApp.debug.xcconfig */,
+				1480FDCE3D5FA37B3FDF0DAF /* Pods-AEONTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5F2D22FC8181447ABF35F439 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D102CF7DA357A06EAE1F06A0 /* Pods_AEONTestApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0406957F268F549B005AC527 /* Build configuration list for PBXNativeTarget "AEONTestApp" */;
 			buildPhases = (
+				BA5114F42C822E8F48F95ABA /* [CP] Check Pods Manifest.lock */,
 				04069567268F5499005AC527 /* Sources */,
 				04069568268F5499005AC527 /* Frameworks */,
 				04069569268F5499005AC527 /* Resources */,
+				B71772F69F9A7732270051FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,20 +186,68 @@
 			files = (
 				0406957B268F549B005AC527 /* LaunchScreen.storyboard in Resources */,
 				04069578268F549B005AC527 /* Assets.xcassets in Resources */,
+				0406958C268F724A005AC527 /* PaymentsTableViewCell.xib in Resources */,
 				04069576268F5499005AC527 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B71772F69F9A7732270051FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AEONTestApp/Pods-AEONTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AEONTestApp/Pods-AEONTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AEONTestApp/Pods-AEONTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5114F42C822E8F48F95ABA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AEONTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04069567268F5499005AC527 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04069573268F5499005AC527 /* ViewController.swift in Sources */,
+				04069592268F9139005AC527 /* PaymentsModel.swift in Sources */,
 				0406956F268F5499005AC527 /* AppDelegate.swift in Sources */,
+				04069583268F5F8E005AC527 /* AuthViewController.swift in Sources */,
 				04069571268F5499005AC527 /* SceneDelegate.swift in Sources */,
+				04069586268F6077005AC527 /* PaymentsViewController.swift in Sources */,
+				04069594268FA1D8005AC527 /* Persistance.swift in Sources */,
+				0406958B268F724A005AC527 /* PaymentsTableViewCell.swift in Sources */,
+				0406958E268F765A005AC527 /* AuthModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +391,7 @@
 		};
 		04069580268F549B005AC527 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3FD83E78FB76EB34DA80AF /* Pods-AEONTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +411,7 @@
 		};
 		04069581268F549B005AC527 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1480FDCE3D5FA37B3FDF0DAF /* Pods-AEONTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
